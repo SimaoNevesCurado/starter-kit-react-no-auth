@@ -46,7 +46,7 @@ laravel new my-app --using=simaocurado/starter-kit-react
 Or with Composer:
 
 ```bash
-composer create-project simaocurado/starter-kit-react my-app
+composer create-project simaocurado/starter-kit-react --prefer-dist my-app
 ```
 
 ## Initial Setup
