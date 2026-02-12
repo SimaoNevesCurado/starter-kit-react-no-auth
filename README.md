@@ -42,13 +42,7 @@ Requirements:
 - A database supported by Laravel
 - A PHP coverage driver (e.g. Xdebug) if you run the full coverage suite
 
-Create a new project with Laravel Installer (recommended):
-
-```bash
-laravel new my-app --using=simaocurado/starter-kit-react --pest --no-interaction
-```
-
-Or with Composer:
+Create a new project with Composer:
 
 ```bash
 composer create-project simaocurado/starter-kit-react --prefer-dist my-app
