@@ -13,7 +13,7 @@ An opinionated starter kit for building Laravel + React apps with a strong focus
 ## Create Project
 
 ```bash
-composer create-project simaocurado/starter-kit-react-no-auth my-app
+composer create-project simaocurado/starter-kit-react-no-auth --prefer-dist my-app
 cd my-app
 composer setup
 ```
