@@ -1,6 +1,8 @@
-# Starter Kit React (Laravel + Inertia)
+# Starter Kit React (Laravel + Inertia v3)
 
 An opinionated starter kit for building Laravel + React apps with a strong focus on quality, typing, and consistency.
+
+This starter kit is prepared for the current Inertia v3 beta line.
 
 ## Requirements
 
@@ -26,6 +28,8 @@ composer setup
 - migrations
 - `bun install`
 - `bun run build`
+
+This repository does not install dependencies during maintenance updates. Consumers continue to install everything themselves through `composer setup`.
 
 ## Development
 
