@@ -1,8 +1,8 @@
-# Starter Kit React (Laravel + Inertia v3)
+# Starter Kit React (Laravel 13 + Inertia v3)
 
 An opinionated starter kit for building Laravel + React apps with a strong focus on quality, typing, and consistency.
 
-This starter kit is prepared for the current Inertia v3 beta line.
+This starter kit is prepared for Laravel 13 and the current Inertia v3 beta line.
 
 ## Requirements
 
