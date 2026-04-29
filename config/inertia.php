@@ -26,12 +26,11 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Testing
+    | Pages
     |--------------------------------------------------------------------------
     |
-    | The values described here are used to locate Inertia components on the
-    | filesystem. For instance, when using `assertInertia`, the assertion
-    | attempts to locate the component as a file relative to the paths.
+    | These options configure how Inertia locates page components at runtime
+    | and while performing filesystem existence checks.
     |
     */
 
@@ -49,6 +48,17 @@ return [
             'vue',
         ],
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Testing
+    |--------------------------------------------------------------------------
+    |
+    | The values described here are used while running tests. Enabling page
+    | existence checks here keeps assertions strict without enforcing them in
+    | non-testing environments.
+    |
+    */
 
     'testing' => [
         'ensure_pages_exist' => true,

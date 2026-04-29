@@ -4,6 +4,8 @@ An opinionated starter kit for building Laravel 13 + React apps with a strong fo
 
 This starter kit is intentionally configured without authentication scaffold logic (no login/register/logout flows).
 
+This starter kit is prepared for Laravel 13 and the current Inertia v3 beta line.
+
 ## Requirements
 
 - PHP `8.5+`
@@ -28,6 +30,8 @@ composer setup
 - migrations
 - `bun install`
 - `bun run build`
+
+This repository does not install dependencies during maintenance updates. Consumers continue to install everything themselves through `composer setup`.
 
 ## Development
 
