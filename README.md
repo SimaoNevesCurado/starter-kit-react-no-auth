@@ -1,6 +1,8 @@
-# Starter Kit React (Laravel + Inertia)
+# Starter Kit React (Laravel 13 + Inertia) - No Auth Scaffold
 
-An opinionated starter kit for building Laravel + React apps with a strong focus on quality, typing, and consistency.
+An opinionated starter kit for building Laravel 13 + React apps with a strong focus on quality, typing, and consistency.
+
+This starter kit is intentionally configured without authentication scaffold logic (no login/register/logout flows).
 
 ## Requirements
 
@@ -21,7 +23,7 @@ composer setup
 `composer setup` runs:
 - PHP dependency installation
 - `.env` creation/configuration
-- automatic `APP_URL` setup to `http://<directory-slug>.test` (from the current folder name)
+- automatic `APP_URL` setup to `http://<project-name>.test`
 - `php artisan key:generate`
 - migrations
 - `bun install`
@@ -37,7 +39,7 @@ With Herd, the HTTP server already exists (`*.test`). You only need to run the f
 bun run dev
 ```
 
-Open the app at `http://<directory-slug>.test`.
+Open the app at `http://<project-name>.test`.
 
 Optional (if you use queues):
 
@@ -76,10 +78,9 @@ This starter applies strict defaults:
 - `composer test:unit`
 - `composer test:types`
 - `composer test:lint`
-- `composer configure:app-url`
 - `composer update:requirements`
 
 ## Notes
 
 - If `bun run build` fails with a Vite/`crypto.hash` error, upgrade Node to `20.19+` or `22.12+`.
-- `APP_URL` is automatically set to `http://<directory-slug>.test` during setup. Adjust it manually only if you use a different local domain.
+- `APP_URL` is automatically set to `http://<project-name>.test` during setup. Adjust it manually only if you use a different local domain.
